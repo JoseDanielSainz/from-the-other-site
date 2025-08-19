@@ -1,5 +1,5 @@
-import path from 'node:http'
 import fs from 'node:fs/promises'
+import path from 'node:path'
 
 export async function getData() {
 
@@ -13,6 +13,4 @@ export async function getData() {
     console.log(err)
     return []
   }
-
-  return 'I am from getData()!'
 }
